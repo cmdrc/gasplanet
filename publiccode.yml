@@ -1,0 +1,56 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - application-development
+description:
+  it:
+    features:
+      - webservice
+    genericName: GasPlanetService
+    longDescription: |
+      Libreria di web service per il calcolo dell'una tantum e la ricerca del
+      gestore associato al comune per il progetto Gas Planet.
+
+
+      Le gare per l’affidamento della distribuzione del gas naturale, in seguito
+      al DM 226/2011, rappresentano una sfida per i Comuni e per il sistema del
+      Paese. La normativa ha imposto sia una ridefinizione di consolidati
+      rapporti fra Comuni e Gestori, sia nuove modalità di gestione delle gare,
+      che richiedono la costituzione di gestioni associati in fase di loro
+      predisposizioni e gestioni di correlati contratti. 
+    shortDescription: Calcolo una tantum e ricerca del gestore per comune
+developmentStatus: development
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: cmdrc
+legal:
+  license: OSL-3.0
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: true
+maintenance:
+  contacts:
+    - name: Fabio Vincenzo Nicita
+  type: internal
+name: GasPlanetService
+platforms:
+  - web
+releaseDate: '2020-11-15'
+softwareType: standalone/desktop
+softwareVersion: 1.0.0
+url: 'https://github.com/cmdrc/gasplanet'
